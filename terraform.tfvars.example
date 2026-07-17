@@ -1,0 +1,22 @@
+aws_region         = "us-east-1"
+project_name       = "webapp"
+
+key_name           = "your-keypair-name"
+
+instance_type      = "t2.micro"
+
+desired_capacity   = 2
+min_size           = 1
+max_size           = 3
+
+app_port           = 80
+
+db_engine          = "postgres"
+db_engine_version  = "16.x"
+db_instance_class  = "db.t3.micro"
+
+allocated_storage  = 20
+
+db_name            = "webappdb"
+db_username        = "your-db-user"
+db_password        = "your-db-password"
