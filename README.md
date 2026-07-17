@@ -6,6 +6,9 @@ This project provisions a scalable, highly available three-tier web application 
 
 The infrastructure follows AWS best practices by deploying the application across multiple Availability Zones, placing application servers behind an Application Load Balancer, using an Auto Scaling Group for scalability, and deploying a PostgreSQL RDS database in private subnets.
 
+## Live Demo
+
+👉 https://drive.google.com/file/d/12EKlESq-JPFau9gigJr50rt8b9ir98y6/view?usp=sharing
 
 ## Architecture
 
